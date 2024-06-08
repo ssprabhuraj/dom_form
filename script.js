@@ -19,12 +19,6 @@ function input_create(tag_name, attr_name, attr_value, attr_name1, attr_value1) 
 }
 
 
-var email = label_create("label", "for", "email", "Email");
-var email_break = break_create();
-var input_email = input_create("input", "type", "email", "id", "email");
-
-document.body.append(email, email_break, input_email);
-
 var first_name = label_create("label", "for", "first_name", "First Name");
 var first_name_break = break_create();
 var first_name_input = input_create("input", "type", "text", "id", "first_name");
@@ -52,6 +46,18 @@ document.body.append(break_create());
 document.body.append(break_create());
 
 document.body.append(last_name, last_name_break, last_name_input);
+
+
+
+
+var email = label_create("label", "for", "email", "Email");
+var email_break = break_create();
+var input_email = input_create("input", "type", "email", "id", "email");
+
+document.body.append(break_create());
+document.body.append(break_create());
+
+document.body.append(email, email_break, input_email);
 
 
 var password = label_create("label", "for", "password", "password");
