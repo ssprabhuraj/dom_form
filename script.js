@@ -30,6 +30,7 @@ var first_name_break = break_create();
 var first_name_input = input_create("input", "type", "text", "id", "first_name");
 
 document.body.append(break_create());
+document.body.append(break_create());
 
 document.body.append(first_name, first_name_break, first_name_input);
 
@@ -38,6 +39,8 @@ var middle_name_break = break_create();
 var middle_name_input = input_create("input", "type", "text", "id", "middle_name");
 
 document.body.append(break_create());
+document.body.append(break_create());
+
 
 document.body.append(middle_name, middle_name_break, middle_name_input);
 
@@ -45,6 +48,7 @@ var last_name = label_create("label", "for", "last_name", "Last Name");
 var last_name_break = break_create();
 var last_name_input = input_create("input", "type", "text", "id", "last_name");
 
+document.body.append(break_create());
 document.body.append(break_create());
 
 document.body.append(last_name, last_name_break, last_name_input);
@@ -55,6 +59,7 @@ var password_break = break_create();
 var password_input = input_create("input", "type", "password", "id", "password");
 
 document.body.append(break_create());
+document.body.append(break_create());
 
 document.body.append(password, password_break, password_input);
 
@@ -63,6 +68,7 @@ var file = label_create("label", "for", "file", "File");
 var file_break = break_create();
 var file_input = input_create("input", "type", "file", "id", "file");
 
+document.body.append(break_create());
 document.body.append(break_create());
 
 document.body.append(file, file_break, file_input);
